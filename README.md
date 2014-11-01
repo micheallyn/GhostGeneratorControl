@@ -1,4 +1,4 @@
-GhostGeneratorControl
+GeneratorControl app for Ghost
 =====================
 
 Control displaying of Generator meta tag for Ghost blog
@@ -26,6 +26,7 @@ Ghost 0.5 (Latest is recommended)
 
 ## Installing
 **Step 1**: Extract the downloaded file first.
+
 **Step 2**: Open `config.js`
 
     // # GeneratorControl Configuration
