@@ -4,17 +4,24 @@
     "description": "Control displaying of generator meta tag for Ghost blog",
     "author": "Micheal Lyn",
     "homepage"    : "http://w3ball.com",
-
-    "licenses" : [
-        {
-            "type": "MIT"
-        }
-    ],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/micheallyn/GhostGeneratorControl.git"
+    },
+    "bugs": {
+        "url": "https://github.com/micheallyn/GhostGeneratorControl/issues"
+    },
+    "license": "MIT",
+    "licenses": [{
+        "type": "MIT",
+        "url": "https://raw.github.com/micheallyn/GhostGeneratorControl/master/LICENSE"
+    }],
     "main": "index.js",
     "engines": {
-        "node": "0.10.*"
+        "node": "~0.10.* || ~0.12.*",
+        "iojs": "~1.2.*"
     },
-    "engineStrict": true,
+    "engine-strict": true,
     "dependencies": {
         "ghost-app": "~0.0.3",
         "lodash": "~2.4.1"
